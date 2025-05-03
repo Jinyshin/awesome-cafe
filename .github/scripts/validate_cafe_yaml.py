@@ -5,7 +5,7 @@ import glob
 import re
 
 REQUIRED_FIELDS = ['title', 'location', 'price', 'table_chair', 'outlets', 'outlets_count', 'wifi']
-OPTIONAL_FIELDS = ['naver_map_link', hours_weekday', 'hours_weekend', 'congestion_weekday', 'congestion_weekend', 'scale', 'features', 'region_kr', 'subregion_kr', 'wifi_speed']
+OPTIONAL_FIELDS = ['naver_map_link', 'hours_weekday', 'hours_weekend', 'congestion_weekday', 'congestion_weekend', 'scale', 'features', 'region_kr', 'subregion_kr', 'wifi_speed']
 CONGESTION_VALUES = ['여유', '보통', '혼잡']
 OUTLETS_COUNT_VALUES = ['많음', '적음']
 WIFI_SPEED_VALUES = ['빠름', '느림']
